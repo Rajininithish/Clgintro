@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shree Daksha Academy — The Illusion of Connections</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Exo+2:wght@200;300;400;600;700&family=Rajdhani:wght@300;400;600;700&display=swap');
+
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box;}
+:root{
+  --deep:#03010d; --navy:#050a2e; --indigo:#0d1b5e; --violet:#1a0a4e;
+  --neon-blue:#00d4ff; --neon-purple:#b400ff; --neon-cyan:#00fff7;
+  --gold:#ffd700; --white:#f0f4ff;
+}
+html,body{width:100%;height:100%;overflow:hidden;background:var(--deep);font-family:'Exo 2',sans-serif;cursor:pointer;}
+#stage{position:fixed;inset:0;width:100vw;height:100vh;overflow:hidden;}
+
+/* CANVAS */
+#pcv{position:absolute;inset:0;z-index:0;pointer-events:none;}
+#netcv{position:absolute;inset:0;z-index:1;pointer-events:none;opacity:0;transition:opacity 1.5s;}
+
+/* BG…
